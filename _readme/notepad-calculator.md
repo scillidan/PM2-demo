@@ -1,0 +1,3 @@
+## Localhost
+
+Open `./index.html`
