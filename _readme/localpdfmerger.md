@@ -10,7 +10,7 @@ yarn build
 
 Edit near line `4` of `package.json`:
 
-``` title="package.json"
+```json title="package.json"
   "scripts": {
     "dev": "next dev",
     "build": "next build",

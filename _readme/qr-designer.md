@@ -7,7 +7,7 @@ fnm use 16.20.0
 
 Edit near line `5` of `nuxt.config.js`:
 
-``` title="nuxt.config.js"
+```json title="nuxt.config.js"
   server: {
     host: "localhost",
     port: 3003

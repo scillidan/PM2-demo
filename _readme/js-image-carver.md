@@ -11,7 +11,7 @@ npm i
 
 Edit near line `6` of `package.json`:
 
-``` title="package.json"
+```json title="package.json"
   "homepage": "",
 ```
 

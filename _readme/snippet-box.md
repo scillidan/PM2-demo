@@ -13,7 +13,7 @@ cd ..
 
 Edit near line `30` of `package.json`:
 
-``` title="package.json"
+```json title="package.json"
   "dependencies": {
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",

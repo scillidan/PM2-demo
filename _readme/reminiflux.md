@@ -6,7 +6,7 @@ npm i
 
 Edit near line `23` of `package.json`:
 
-``` title="package.json"
+```json title="package.json"
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",

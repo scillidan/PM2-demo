@@ -12,4 +12,4 @@ npm run build
 serve -s docs -p 4321
 ```
 
-If app take up `4321`, open chrome://serviceworker-internals/?devtools and unregister it.
+If app take up `4321` port, open `chrome://serviceworker-internals/?devtools` and unregister it.

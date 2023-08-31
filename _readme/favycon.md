@@ -6,7 +6,7 @@ yarn install
 
 Edit near line `13` of `.eslintrc.json`:
 
-``` title=".eslintrc.json"
+```json title=".eslintrc.json"
 	"rules": {
 		"prettier/prettier": ["error", {'endOfLine': 'auto'} ]
 ```
