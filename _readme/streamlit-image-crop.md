@@ -4,7 +4,7 @@ I should have tested it on `python38`. Old screenshot with the not pretty resolu
 
 ![](../_media/streamlit-image-crop_cache.png)
 
- but now I mainly use `python39`. I don't want to reinstall `python38` on PC. So here's my reasoning. Actually, I want to use `pyenv`, but I meet some problems at present.
+But now I mainly use `python39`. I don't want to reinstall `python38` on PC. So here's my reasoning. Actually, I want to use `pyenv`, but I meet some problems at present.
 
 ```sh
 scoop install python38
@@ -32,8 +32,10 @@ At the same time:
 streamlit run example.py
 ```
 
-But before that: ↪ [click.get_os_args is deprecated on module 'click 8.1.0'](https://github.com/streamlit/streamlit/issues/4555)
+But before that:
 
 ```sh
 pip install -U click==8
 ```
+
+↪ [click.get_os_args is deprecated on module 'click 8.1.0'](https://github.com/streamlit/streamlit/issues/4555)
