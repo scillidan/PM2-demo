@@ -1,4 +1,4 @@
-memos/
+reference/
 
 albumapp-django/
 altium_js/
@@ -37,7 +37,6 @@ programmingfonts/
 qr-designer/
 quiver/
 reaflow/
-reference/
 regexr/
 reminiflux/
 reportbro-designer/
@@ -53,3 +52,4 @@ tikzcd-editor/
 visionmagic/
 vtracer/
 woah/
+vivliostyle-viewer-latest/

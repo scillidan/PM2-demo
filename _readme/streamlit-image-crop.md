@@ -1,6 +1,10 @@
 ## Localhost
 
-I should have tested it on `python38`, but now I mainly use `python39`. I don't want to reinstall `python38` on PC. So here's my reasoning. Actually, I want to use `pyenv`, but I meet some problems at present.
+I should have tested it on `python38`. Old screenshot with the not pretty resolution `1920x1080`:
+
+![](../_media/streamlit-image-crop_cache.png)
+
+ but now I mainly use `python39`. I don't want to reinstall `python38` on PC. So here's my reasoning. Actually, I want to use `pyenv`, but I meet some problems at present.
 
 ```sh
 scoop install python38
