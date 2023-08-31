@@ -12,7 +12,25 @@ See [table.md](table.md).
 
 ## Notes
 
-Start multiple app with `ecosystem.config.js`:
+See [Reference](## Reference) and [reference.md](_readme/reference.md) to use `pm2`.
+
+And every time you start a app:
+
+```sh
+gsudo pm2 save
+```
+
+### Set `pm2` as service on Windows10
+
+```sh
+git clone https://github.com/jessety/pm2-installer
+cd pm2-installer
+npm run configure
+scoop install gsudo
+gsudo npm run setup
+```
+
+### Start multiple app with `ecosystem.config.js`
 
 ```js title="ecosystem.config.js"
 {
@@ -32,22 +50,6 @@ Start multiple app with `ecosystem.config.js`:
 
 ```sh
 pm2 start
-```
-
-Set `pm2` as service on Windows10:
-
-```sh
-git clone https://github.com/jessety/pm2-installer
-npm run configure
-scoop install gsudo
-gsudo npm run setup
-gsudo pm2 save
-```sh
-
-After reboot:
-
-```sh
-gsudo pm2 list
 ```
 
 ## Reference
