@@ -12,7 +12,7 @@ See [table.md](table.md).
 
 ## Notes
 
-See [Reference](## Reference) and [reference.md](_readme/reference.md) to use `pm2`.
+See [Reference](README.md#reference) and [reference.md](_readme/reference.md) to use `pm2`.
 
 And every time you start a app:
 
