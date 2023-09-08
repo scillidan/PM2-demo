@@ -1,23 +1,20 @@
-## Localhost
+## Vercel
+
+1. Fork [excalith/excalith-start-page](https://github.com/excalith/excalith-start-page)
+2. Import your fork to [Vercel](https://vercel.com/goblin-market)
+
+## PM2
 
 ```sh
 yarn
 ```
 
 ```sh
-yarn build --port 8010
+pm2 start yarn --watch --name "excalith-start-page" -- dev
 ```
 
-```sh
-npx next build
-```
+Open the site, then:
 
 ```sh
-npx next start
-```
-
-## PM2
-
-```sh
-pm2 start deploy.json --name excalith-start-page --watch
+config import https://gist.githubusercontent.com/scillidan/0d37c44fc21ddb8eee0615c35a289d16/raw/d3fffcaa2db7c39d870b9f9cacdd10c5d1f5f095/excalith-start-page.json
 ```
