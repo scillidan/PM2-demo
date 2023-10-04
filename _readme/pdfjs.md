@@ -32,7 +32,7 @@ See [Error on npm install](https://github.com/mozilla/pdf.js/issues/15112) and o
 ## PM2
 
 ```sh
-pm2 serve build/generic 4321 --name pdfjs --spa
+pm2 serve build/generic/ 4321 --name pdfjs --spa
 ```
 
 Open `localhost:4321/web/viewer.html`
