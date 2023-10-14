@@ -8,7 +8,7 @@ scoop install dufs
 dufs
 ```
 
-Open `localhost:5000/web/viewer.html`
+Open `localhost:5000/web/viewer.html`, or open `localhost:4007/web/viewer.html?file=book.pdf`.
 
 Or:
 

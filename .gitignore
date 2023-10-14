@@ -1,5 +1,7 @@
 pm2-webui/
+SilverDict/
 
+url-encoder/
 pdf.js/
 reference/
 albumapp-django/
