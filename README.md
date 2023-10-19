@@ -8,19 +8,20 @@
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 Some web applications and tools I collected. Mainly used on `localhost`. I plan to use [PM2](https://pm2.keymetrics.io/) to manage some local services that I using.  
-See [table.md](table.md).
+And I used [fnm](https://github.com/Schniz/fnm), default Node.js version is `18.15.0`.  
+See [table.md](table.md). 
 
-## Notes
+## Start
 
-See [Reference](README.md#reference) and [reference.md](_readme/reference.md) to use `pm2`.
+See links on [Reference](README.md#reference) and `*.md` such as [reference.md](_readme/reference.md).
 
-And every time you start a app:
+after `pm2 start ...`, if you want to save app:
 
 ```sh
 gsudo pm2 save
 ```
 
-### Set `pm2` as service on Windows10
+Then, set `pm2` to run automatically at startup. On Windows10, you need:
 
 ```sh
 git clone https://github.com/jessety/pm2-installer
@@ -30,15 +31,15 @@ scoop install gsudo
 gsudo npm run setup
 ```
 
-### Start multiple app with `ecosystem.config.js`
+I didn't use this way, but if you want to start multiple app with `ecosystem.config.js`, create it and edit:
 
 ```js title="ecosystem.config.js"
 {
 	"apps": [
 		{
 			"name": "regexr",
-			"interpreter": "C:\\Users\\scillidan\\AppData\\Roaming\\fnm\\node-versions\\v10.21.0\\installation\\node",
-			"script": "C:\\Users\\scillidan\\AppData\\Roaming\\pnpm\\global\\5\\.pnpm\\gulp-cli@2.3.0\\node_modules\\gulp-cli\\bin\\gulp.js"
+			"interpreter": "C:\\Users\\yourname\\AppData\\Roaming\\fnm\\node-versions\\v10.21.0\\installation\\node",
+			"script": "C:\\Users\\yourname\\AppData\\Roaming\\pnpm\\global\\5\\.pnpm\\gulp-cli@2.3.0\\node_modules\\gulp-cli\\bin\\gulp.js"
 		},
 		{
 			...
@@ -47,6 +48,8 @@ gsudo npm run setup
 	]
 }
 ```
+
+Then:
 
 ```sh
 pm2 start
