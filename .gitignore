@@ -1,6 +1,7 @@
 pm2-webui/
 SilverDict/
 
+sreadium/
 oTranscribe/
 url-encoder/
 pdf.js/
@@ -59,3 +60,6 @@ vtracer/
 woah/
 vivliostyle-viewer-latest/
 texthooker/
+
+thorium-reader/
+readium-js-viewer/
