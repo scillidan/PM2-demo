@@ -1,9 +1,11 @@
 pm2-webui/
-SilverDict/
+MemGPT/
 
-sreadium/
-oTranscribe/
+sqlite-web/
+GIT.RAWify/
 url-encoder/
+SilverDict/
+sreadium/
 pdf.js/
 reference/
 albumapp-django/
@@ -61,5 +63,7 @@ woah/
 vivliostyle-viewer-latest/
 texthooker/
 
+Flowise/
 thorium-reader/
 readium-js-viewer/
+retro-assembly/
