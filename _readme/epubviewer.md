@@ -11,5 +11,5 @@ If app take up `4321` port, open `chrome://serviceworker-internals/?devtools` an
 ## PM2
 
 ```sh
-pm2 serve . 4321 --name epubvidewer --watch
+pm2 serve . 4321 --name epubvidewer --spa
 ```

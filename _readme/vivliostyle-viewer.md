@@ -11,5 +11,5 @@ serve -s viewer -p 4321
 ## PM2
 
 ```sh
-pm2 serve --spa --name vivliostyle-viewer viewer 4321
+pm2 serve viewer 4321 --name vivliostyle-viewer --spa
 ```
