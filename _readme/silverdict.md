@@ -16,3 +16,5 @@ python server.py
 ```
 
 Open `localhost:2628`, then add `dictionnary-file` into `source/`.
+
+Some cache saved on `C:\Users\yourname\.silverdict` and `C:\Users\scillidan\.cache\SilverDict`.
