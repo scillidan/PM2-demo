@@ -1,6 +1,12 @@
+Flowise/
+thorium-reader/
+readium-js-viewer/
+retro-assembly/
+
 pm2-webui/
 legumes/
 
+h2m/
 jsetymology/
 miniPaint/
 finetuneas/
@@ -65,8 +71,4 @@ vtracer/
 woah/
 vivliostyle-viewer-latest/
 texthooker/
-
-Flowise/
-thorium-reader/
-readium-js-viewer/
-retro-assembly/
+kiwix-js-pwa/
