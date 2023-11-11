@@ -1,4 +1,3 @@
-Flowise/
 thorium-reader/
 readium-js-viewer/
 retro-assembly/
@@ -10,20 +9,17 @@ h2m/
 jsetymology/
 miniPaint/
 finetuneas/
-sqlite-web/
 GIT.RAWify/
 url-encoder/
 SilverDict/
 sreadium/
 pdf.js/
 reference/
-albumapp-django/
 altium_js/
 calcutext/
 cheatsheet-generator/
 clcalc/
 codi.link/
-doctr/
 Drawflow/
 Editor/
 epub-manga-creator/
@@ -60,7 +56,6 @@ reportbro-designer/
 satori/
 sketch-to-lineart/
 snippet-box/
-streamlit-image-crop/
 svg-path-editor/
 svgedit/
 svgomg/

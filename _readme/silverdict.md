@@ -15,6 +15,14 @@ pip install -r requirements.txt
 python server.py
 ```
 
-Open `localhost:2628`, then add `dictionnary-file` into `source/`.
+Open `localhost:2628`.
 
-Some cache saved on `C:\Users\yourname\.silverdict` and `C:\Users\scillidan\.cache\SilverDict`.
+Setting → Sources → add `yourpath` then `Enter` → Wait for import.
+
+In addition, some cache saved on `C:\Users\yourname\.silverdict` and `C:\Users\yourname\.cache\SilverDict`.
+
+## PM2
+
+```sh
+pm2 start server.py --name silverdict --interpreter "...\SilverDict\server\venv\Scripts\python.exe" --cwd "...\SilverDict\server" 
+```
