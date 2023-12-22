@@ -1,6 +1,7 @@
 thorium-reader/
 readium-js-viewer/
 retro-assembly/
+compressioweb/
 
 pm2-webui/
 legumes/
@@ -69,3 +70,4 @@ texthooker/
 kiwix-js-pwa/
 tldraw/
 changedetection.io/
+gifsicle-wasm-browser/

@@ -23,16 +23,18 @@ gsudo pm2 save
 Then, set `pm2` to run automatically at startup. On Windows10, you need:
 
 ```sh
+scoop install gsudo
 git clone https://github.com/jessety/pm2-installer
 cd pm2-installer
-npm run configure
-scoop install gsudo
+gsudo npm run configure
 gsudo npm run setup
 ```
 
-I didn't use this way, but if you want to start multiple app with `ecosystem.config.js`, create it and edit:
+Windows → Control Panel → Administrative Tools > Services → PM2 → Properties → Log On → local system account → Go back to first tab → Start
 
-```js title="ecosystem.config.js"
+If you want to start multiple app with `ecosystem.config.js`, create `ecosystem.config.js` and edit. I didn't use this way:
+
+```js
 {
 	"apps": [
 		{
@@ -48,11 +50,7 @@ I didn't use this way, but if you want to start multiple app with `ecosystem.con
 }
 ```
 
-Then:
-
-```sh
-pm2 start
-```
+Then `pm2 start`.
 
 ## Reference
 
