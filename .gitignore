@@ -1,10 +1,18 @@
+# cache
 thorium-reader/
 readium-js-viewer/
 retro-assembly/
 compressioweb/
-
 pm2-webui/
 legumes/
+CyberChef/
+myip/
+freshermeat/
+
+# wsl
+Stirling-PDF/
+weblate/
+plane/
 
 h2m/
 jsetymology/
@@ -71,4 +79,3 @@ kiwix-js-pwa/
 tldraw/
 changedetection.io/
 gifsicle-wasm-browser/
-rclone-webui-angular/

@@ -6,9 +6,10 @@
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-Some web applications and tools I collected. Mainly used on `localhost`. I plan to use [PM2](https://pm2.keymetrics.io/) to manage some local services that I using.  
-And I used [fnm](https://github.com/Schniz/fnm), default Node.js version is `18.15.0`.  
-See [table.md](table.md). 
+Some web applications and tools I found andcollected. Mainly used on `localhost`. I plan to use [PM2](https://pm2.keymetrics.io/) to manage someone of them.  
+And I used [fnm](https://github.com/Schniz/fnm), default Node.js version is `18.15.0`.
+
+See [table.md](table.md). I recommend using [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?hl=en) to preview small picture or link.
 
 ## Start
 
