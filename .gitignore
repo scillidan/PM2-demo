@@ -8,11 +8,22 @@ legumes/
 CyberChef/
 myip/
 freshermeat/
+showcase-recipe-search/
+zealusercontributions/
+
+# watch
+materialflux/
+
+# cloud
+vivliostyle-pub/
 
 # wsl
 Stirling-PDF/
 weblate/
 plane/
+
+## ruby 2.7.2 docker
+showcase-recipe-search/
 
 h2m/
 jsetymology/
@@ -79,3 +90,9 @@ kiwix-js-pwa/
 tldraw/
 changedetection.io/
 gifsicle-wasm-browser/
+recoded/
+diceRoller/
+earlume/
+noisecraft/
+lyrics-poster/
+flatdraw/
