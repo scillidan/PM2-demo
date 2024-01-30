@@ -12,6 +12,7 @@ cd ../server
 python310 -m venv venv
 venv\Scripts\activate.bat
 pip install -r requirements.txt
+pip install lxml
 python server.py
 ```
 
