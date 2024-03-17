@@ -14,5 +14,11 @@ npm run build
 ```
 
 ```sh
-serve -s docs -l 4321
+serve -s build -l 4321
+```
+
+## PM2
+
+```sh
+pm2 serve build 4321 --name image-editor --watch --spa
 ```
