@@ -1,34 +1,15 @@
 # cache
 thorium-reader/
 readium-js-viewer/
-retro-assembly/
-compressioweb/
 pm2-webui/
 legumes/
 CyberChef/
-myip/
-freshermeat/
-showcase-recipe-search/
-zealusercontributions/
-vivliostyle.js/
+
+# api
 web-check/
 
 # watch
 materialflux/
-
-# cloud
-vivliostyle-pub/
-
-# wsl
-Stirling-PDF/
-weblate/
-plane/
-
-## ruby 2.7.2 docker
-showcase-recipe-search/
-
-## win11
-webtag/
 
 h2m/
 jsetymology/
@@ -106,3 +87,5 @@ gifconverter/
 video-gif-web-converter/
 cnvrt/
 manga-image-translator/
+retro-assembly/
+MyIP/

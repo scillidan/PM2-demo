@@ -17,6 +17,7 @@ Edit near line `4` of `package.json`:
     "start": "next start -p 4321"
 }
 ```
+
 ```sh
 yarn start
 ```

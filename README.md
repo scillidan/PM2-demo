@@ -40,7 +40,7 @@ If you want to start multiple app with `ecosystem.config.js`, create `ecosystem.
 	"apps": [
 		{
 			"name": "regexr",
-			"interpreter": "C:\\Users\\yourname\\AppData\\Roaming\\fnm\\node-versions\\v10.21.0\\installation\\node",
+			"interpreter": "C:\\Users\\yourname\\AppData\\Roaming\\fnm\\node-versions\\v10.21.0\\installation\\node.exe",
 			"script": "C:\\Users\\yourname\\AppData\\Roaming\\pnpm\\global\\5\\.pnpm\\gulp-cli@2.3.0\\node_modules\\gulp-cli\\bin\\gulp.js"
 		},
 		{
