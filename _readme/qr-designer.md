@@ -15,9 +15,16 @@ Edit near line `5` of `nuxt.config.js`:
 ```
 
 ```sh
+npm install
 npm run generate
 ```
 
 ```sh
 npm run start
+```
+
+## PM2 (Ubuntu 22.04.4 ARM)
+
+```sh
+pm2 start npm --name "qr-designer" -- run start
 ```

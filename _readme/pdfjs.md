@@ -3,7 +3,7 @@
 Download `pdfjs-xxx-dist.zip` from [Releases](https://github.com/mozilla/pdf.js/releases) and decompress it.
 
 ```sh
-cd pdf.js-dist/
+cd pdfjs-dist/
 scoop install dufs
 dufs
 ```

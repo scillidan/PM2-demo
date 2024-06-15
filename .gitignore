@@ -5,19 +5,14 @@ pm2-webui/
 legumes/
 CyberChef/
 
-# api
-web-check/
-
 # watch
 materialflux/
 
 h2m/
-jsetymology/
 miniPaint/
 finetuneas/
 GIT.RAWify/
 url-encoder/
-SilverDict/
 sreadium/
 pdf.js/
 reference/
@@ -75,7 +70,6 @@ vivliostyle-viewer/
 texthooker/
 kiwix-js-pwa/
 tldraw/
-changedetection.io/
 gifsicle-wasm-browser/
 recoded/
 diceRoller/
@@ -83,10 +77,15 @@ earlume/
 noisecraft/
 lyrics-poster/
 flatdraw/
-etytree/
 gifconverter/
 video-gif-web-converter/
 cnvrt/
 manga-image-translator/
 retro-assembly/
-MyIP/
+etytree/
+jsetymology/
+
+prettygraph/
+signature_pad/
+teable/
+glance/
