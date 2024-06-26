@@ -1,13 +1,3 @@
-# cache
-thorium-reader/
-readium-js-viewer/
-pm2-webui/
-legumes/
-CyberChef/
-
-# watch
-materialflux/
-
 h2m/
 miniPaint/
 finetuneas/
@@ -85,7 +75,28 @@ retro-assembly/
 etytree/
 jsetymology/
 
-prettygraph/
+# TBD
+
 signature_pad/
+textograph-web/
+mpv-shelf/
 teable/
+LinguaCafe/
 glance/
+
+# Cache
+
+pm2-webui/
+thorium-reader/
+readium-js-viewer/
+legumes/
+CyberChef/
+maybe/
+plane/
+JRNL/
+prettygraph/
+ankiCardCreator/
+Anki/
+AnkiDojo/
+Anki2Notes/
+Anki-helper/
