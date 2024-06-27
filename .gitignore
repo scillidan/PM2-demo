@@ -77,6 +77,8 @@ jsetymology/
 
 # TBD
 
+dgmjs/
+quasar-ascii-silhouettify/
 signature_pad/
 textograph-web/
 mpv-shelf/
@@ -97,6 +99,9 @@ JRNL/
 prettygraph/
 ankiCardCreator/
 Anki/
+
+# Anki
 AnkiDojo/
 Anki2Notes/
 Anki-helper/
+PitchHTML/
