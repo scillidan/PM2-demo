@@ -74,17 +74,14 @@ manga-image-translator/
 retro-assembly/
 etytree/
 jsetymology/
-
-# TBD
-
 dgmjs/
 quasar-ascii-silhouettify/
 signature_pad/
-textograph-web/
+
+# TBD
+
 mpv-shelf/
 teable/
-LinguaCafe/
-glance/
 
 # Cache
 
@@ -97,6 +94,7 @@ maybe/
 plane/
 JRNL/
 prettygraph/
+textograph-web/
 ankiCardCreator/
 Anki/
 
